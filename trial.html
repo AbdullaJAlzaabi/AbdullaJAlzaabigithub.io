@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYUAD Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional inline styles for demonstration purposes */
+        /* ... (previous styles) ... */
+
+        /* Animated background */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, #57068c, #007acc); /* Gradient background color */
+            z-index: -1;
+            animation: animatedBackground 20s linear infinite;
+        }
+
+        @keyframes animatedBackground {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 100% 0;
+            }
+        }
+
+        /* Improved styles for content */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white */
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        header {
+            background-color: #57068c; /* NYU Purple */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #007acc; /* NYU Blue */
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px 0;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #57068c; /* NYU Purple */
+            margin: 0 0 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* ... (other styles) ... */
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to the NYUAD Library</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>Welcome to the NYUAD Library! We are a hub of knowledge and resources, serving the academic community at NYU Abu Dhabi. Our mission is to provide access to a diverse range of materials and support research, learning, and intellectual discovery.</p>
+        <p>Our dedicated team of librarians and staff is here to assist you in your academic journey. Whether you're a student, faculty member, or researcher, we are committed to helping you make the most of our extensive collection and services.</p>
+    </section>
+
+    <section id="collections" class="container">
+        <h2>Collections</h2>
+        <p>Discover our vast collection of resources, including:</p>
+        <ul>
+            <li>Books and e-books</li>
+            <li>Journals and e-journals</li>
+            <li>Digital databases</li>
+            <li>Specialized research materials</li>
+        </ul>
+        <p>Explore the wealth of knowledge at your fingertips and make use of our state-of-the-art facilities for research and study.</p>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Services</h2>
+        <p>We offer a wide range of services tailored to meet the needs of our diverse community:</p>
+        <ul>
+            <li>Research assistance</li>
+            <li>Interlibrary loan</li>
+            <li>Workshops and training</li>
+            <li>Access to rare and special collections</li>
+        </ul>
+        <p>Our goal is to empower you in your academic pursuits and provide the support you need to excel.</p>
+    </section>
+
+    <section id="video" class="container">
+        <h2>Library Video Tour</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/your-video-url" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Library Photo</h2>
+        <img class="library-image" src="library-photo.jpg" alt="NYUAD Library">
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to contact us:</p>
+        <address>
+            Email: <a href="mailto:library@nyuad.edu">library@nyuad.edu</a><br>
+            Phone: +123-456-7890<br>
+            Address: NYU Abu Dhabi Library, P.O. Box 12345, Abu Dhabi, UAE
+        </address>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 NYUAD Library</p>
+        </div>
+    </footer>
+
+    <!-- Advanced features and scripts go here -->
+</body>
+</html>
+
+
